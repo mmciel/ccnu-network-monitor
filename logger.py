@@ -20,10 +20,3 @@ def init_logger(name, level, filename, fh_level):
     fh.setFormatter(log_format)
     sh.setFormatter(log_format)
     return log
-
-
-# if __name__ == '__main__':
-#     my_log = init_logger('mylog', 'DEBUG', 'mylog.log', 'DEBUG')
-    # my_log.info('-')
-    # my_log.debug('--')
-    # my_log.error('-')

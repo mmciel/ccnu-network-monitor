@@ -3,12 +3,13 @@ password = None
 
 
 def getHasGUI():
-    return True
-    # return False
+    # return True
+    return False
 
 
 def getDriverPath():
-    return '/usr/local/bin/msedgedriver'
+    # return '/usr/local/bin/msedgedriver'
+    return 'C:\\F-Env\\14-edgeDriver\\msedgedriver.exe'
 
 
 def setUserInfo(un, pw):
